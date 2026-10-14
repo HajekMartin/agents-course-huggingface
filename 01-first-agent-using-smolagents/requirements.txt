@@ -1,0 +1,7 @@
+smolagents[litellm,gradio]==1.26.0
+litellm==1.104.0
+gradio==6.29.1
+PyYAML==6.0.3
+requests>=2.32.3,<3
+tzdata>=2025.1
+tzlocal>=5.3,<6

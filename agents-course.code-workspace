@@ -1,0 +1,21 @@
+{
+  "folders": [
+    {
+      "name": "01 - smolagents",
+      "path": "01-first-agent-using-smolagents"
+    },
+    {
+      "name": "02 - LlamaIndex",
+      "path": "02-agentic-rag-using-llamaindex"
+    }
+  ],
+  "settings": {
+    "python.terminal.executeInFileDir": true
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-python.python",
+      "ms-python.debugpy"
+    ]
+  }
+}

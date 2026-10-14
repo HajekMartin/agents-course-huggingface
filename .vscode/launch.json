@@ -1,0 +1,36 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "01 - First Agent (Ollama)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/01-first-agent-using-smolagents/app.py",
+      "cwd": "${workspaceFolder}/01-first-agent-using-smolagents",
+      "python": "${workspaceFolder}/01-first-agent-using-smolagents/.venv/bin/python",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "02 - Alfred (LlamaIndex + Ollama)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/02-agentic-rag-using-llamaindex/app.py",
+      "cwd": "${workspaceFolder}/02-agentic-rag-using-llamaindex",
+      "python": "${workspaceFolder}/02-agentic-rag-using-llamaindex/.venv/bin/python",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "02 - Alfred (with web search)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/02-agentic-rag-using-llamaindex/app.py",
+      "cwd": "${workspaceFolder}/02-agentic-rag-using-llamaindex",
+      "python": "${workspaceFolder}/02-agentic-rag-using-llamaindex/.venv/bin/python",
+      "args": ["--enable-web"],
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "dataset": "agents-course/unit3-invitees",
+  "source_url": "https://huggingface.co/datasets/agents-course/unit3-invitees",
+  "downloaded_on": "2026-10-13",
+  "guests": [
+    {
+      "name": "Ada Lovelace",
+      "relation": "best friend",
+      "description": "Lady Ada Lovelace is my best friend. She is an esteemed mathematician and friend. She is renowned for her pioneering work in mathematics and computing, often celebrated as the first computer programmer due to her work on Charles Babbage's Analytical Engine.",
+      "email": "ada.lovelace@example.com"
+    },
+    {
+      "name": "Dr. Nikola Tesla",
+      "relation": "old friend from university days",
+      "description": "Dr. Nikola Tesla is an old friend from your university days. He's recently patented a new wireless energy transmission system and would be delighted to discuss it with you. Just remember he's passionate about pigeons, so that might make for good small talk.",
+      "email": "nikola.tesla@gmail.com"
+    },
+    {
+      "name": "Marie Curie",
+      "relation": "no relation",
+      "description": "Marie Curie was a groundbreaking physicist and chemist, famous for her research on radioactivity.",
+      "email": "marie.curie@example.com"
+    }
+  ]
+}

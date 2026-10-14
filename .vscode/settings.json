@@ -1,0 +1,4 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/01-first-agent-using-smolagents/.venv/bin/python",
+  "python.terminal.executeInFileDir": true
+}

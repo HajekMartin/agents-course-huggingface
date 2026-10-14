@@ -38,6 +38,13 @@ python app.py
 Open **http://127.0.0.1:7861**. Port 7861 keeps this UI separate from the first agent.
 No public Gradio sharing link or remote image asset is used.
 
+**Enable web search in the UI before asking the agent to search the internet.**
+When started with `python app.py`, web search is disabled by default. Check
+**Enable web search (requires internet)** above the chat, then submit your request.
+Asking the agent to search online does not enable the tool automatically.
+You can toggle it without restarting the app. Starting with `--enable-web`
+preselects the checkbox.
+
 Run a single task in the terminal:
 
 ```bash
